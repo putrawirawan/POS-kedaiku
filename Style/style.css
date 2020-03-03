@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
+* {
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    list-style: none;
+    font-weight: 500;
+}
+
+
+/* ============== List Content ============== */
+
+.left-sidebar {
+    width: 310px;
+    float: left;
+}
+
+.left-sidebar .shortcut {
+    width: 70px;
+    height: 720px;
+    background: white;
+    float: left;
+}
+
+.left-sidebar .my-logo img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.left-sidebar .menus {
+    width: 70px;
+    margin-top: 190px;
+}
+
+.left-sidebar .menus .item-menu {
+    width: 45px;
+    height: 45px;
+    background-color: whitesmoke;
+    border-radius: 13px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+.left-sidebar .menus .item-menu .icon-menu {
+    color: black;
+    font-size: 22px;
+    text-align: center;
+    padding-top: 7px;
+}
+
+.left-sidebar .menus .item-menu:last-child {
+    margin-top: 120px;
+}
+
+.left-sidebar .menus .inactive {
+    background: none;
+}
+
+.left-sidebar .menus .inactive .icon-menu {
+    opacity: 0.2;
+}
+
+.left-sidebar .menus .inactive:hover {
+    border-left: 3px solid #0b63dc;
+}
+
+.left-sidebar .menus .inactive {
+    transition: 0.1s;
+}
+
+.left-sidebar .menus .inactive .icon-menu {
+    transition: 0.1s;
+}
+
+.left-sidebar .menus .inactive:hover .icon-menu {
+    opacity: 1 !important;
+}
+
+
+/* ========= */
+
+
+/* ===- Admin-Profile -=== */
+
+.left-sidebar .admin-menu {
+    width: 240px;
+    height: 780px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(246, 247, 251, 1) 100%);
+    float: left;
+}
+
+.left-sidebar .admin-menu .admin-pict {
+    width: 110px;
+    height: 110px;
+    border: 1px solid #e6e8f0;
+    border-radius: 100%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.left-sidebar .admin-menu .admin-pict img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin-top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    object-fit: cover;
+}
+
+.left-sidebar .admin-menu .admin-name {
+    font-size: 18px;
+    font-family: "Poppins";
+    font-weight: 500;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.left-sidebar .admin-menu .user-role {
+    font-size: 15px;
+    font-family: "Poppins";
+    font-weight: 300;
+    color: gray;
+    text-align: center;
+}
+
+.left-sidebar .admin-menu .list-menu {
+    margin-top: 60px;
+    margin-left: -20px;
+}
+
+.left-sidebar .admin-menu .list-menu .badge-kedaiku {
+    background: #d0d7ff;
+    color: #203dd1;
+}
+
+.left-sidebar .admin-menu .list-menu .active-link {
+    color: black;
+}
+
+.left-sidebar .admin-menu .list-menu a {
+    text-decoration: none;
+}
+
+.left-sidebar .admin-menu .list-menu li {
+    display: block;
+    padding-bottom: 41px;
+    font-size: 16px;
+    font-family: "Quicksand";
+    font-weight: 400;
+    color: #b4b4b4;
+}
+
+.left-sidebar .admin-menu .list-menu li:hover {
+    color: #0b63dc;
+}
+
+
+/* ===- Main Content -=== */
+
+.main-content .header .header-title {
+    font-family: "Quicksand";
+    font-size: 38px;
+    color: black;
+    font-weight: 400;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+.main-content .header .sub-header-title {
+    font-weight: 300;
+    font-family: "Poppins";
+    color: gray;
+    font-size: 13px;
+    margin-left: 50px;
+    padding-bottom: 50px;
+}
+
+.main-content .report-group {
+    margin-top: 0px;
+}
+
+.main-content .report-group .item-report .content {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-content .report-group .item-report .content .title-items {
+    font-size: 18px;
+    color: #21272c;
+    font-weight: 500;
+    font-family: "Poppins";
+    margin: 0;
+}
+
+.main-content .report-group .item-report .content .subtitle-items {
+    font-size: 13px;
+    color: #b4b4b4;
+    font-weight: 300;
+    font-family: "Poppins";
+    margin: 0;
+}
+
+.main-content .report-group .item-report .content .value-items {
+    font-size: 42px;
+    color: #21272c;
+    font-weight: 500;
+    font-family: "Poppins";
+    margin: 0;
+    clear: both;
+    float: left;
+    margin-right: 10px;
+}
+
+.main-content .report-group .item-report .content .desc-items {
+    font-size: 20px;
+    color: #b4b4b4;
+    font-weight: 300;
+    font-family: "Poppins";
+    margin: 0;
+    margin-top: 25px;
+}
+
+.main-content .report-group .item-report {
+    background: url("../Dist/Icon/Chart.png");
+    background-size: cover;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px !important;
+}
+
+.main-content .report-group .item-report .content img {
+    float: left;
+    margin-right: 12px;
+}
+
+.main-content .report-group .items-big-report {
+    background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(246, 247, 251, 1) 100%);
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20 px;
+}
+
+.title-blue {
+    font-weight: 500;
+    color: #203dd1;
+}
+
+.main-content .report-group .items-big-report .title {
+    font-size: 20px;
+    color: #21272c;
+    font-weight: 400;
+    font-family: "Poppins";
+    margin: 0;
+}
+
+.main-content .report-group .items-big-report .sub-title {
+    font-size: 16px;
+    color: #b4b4b4;
+    font-weight: 300;
+    font-family: "Poppins";
+    margin: 0;
+}
+
+.divider-line {
+    width: 100%;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.main-content .report-group .items-big-report .list-item {
+    margin-top: 10px;
+}
+
+.main-content .report-group .primary-user-picture-circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    display: block;
+    object-fit: cover;
+    margin: auto;
+    margin-top: 4px;
+}
+
+
+/* ===- Employee Content -=== */
+
+.user-table-item {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    object-fit: cover;
+    display: block;
+    margin: auto;
+}
+
+.tabel-kedaiku tr td {
+    vertical-align: middle;
+}
+
+#picture {
+    margin-top: -10px;
+}
+
+.table-kedaiku thead tr th {
+    font-size: 16px;
+    color: #21272c;
+    font-weight: 300;
+    font-family: "Poppins";
+    text-align: center;
+}
+
+.table-kedaiku tbody tr td {
+    font-size: 16px;
+    color: #21272c;
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+}

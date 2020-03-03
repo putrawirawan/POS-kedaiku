@@ -1,0 +1,171 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    text-decoration: none;
+    background-color: #eee;
+    color: #666;
+    font-size: 16px;
+}
+
+
+/* ==- Navbar -== */
+
+.navbar {
+    width: 650px;
+    box-shadow: 5px 5px 18px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 10px 0px;
+}
+
+
+/* ==- Workspace Login -== */
+
+.container-fluid .area-left::after {
+    content: "";
+    opacity: 20;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.picture-img {
+    margin-top: 100px;
+}
+
+.login-container {
+    font-family: "Quicksand";
+    height: 100vh;
+    width: 100%;
+    margin-top: 20px;
+    margin-left: -70px;
+}
+
+.login-form {
+    margin: auto;
+    width: 370px;
+    padding: 15px;
+    max-width: 100%;
+}
+
+.login-form .form-control {
+    font-size: 15px;
+    min-height: 48px;
+    font-weight: 500;
+}
+
+.login-form a {
+    text-decoration: none;
+    color: #666;
+}
+
+.login-form h1 {
+    color: black;
+}
+
+.login-form a:hover {
+    color: #723dbe;
+}
+
+.forgot-link {
+    font-size: 13px;
+}
+
+.form-control:focus {
+    border-color: #723dbe;
+    box-shadow: 0 0 0 0.2rem rgba(114, 61, 190, 0.25);
+}
+
+.btn-custom:focus,
+.btn-custom:hover,
+.btn-custom:active,
+.btn-custom:active:focus {
+    background: #54229d;
+    border-color: #54229d;
+    color: #fff;
+}
+
+.btn-custom:focus {
+    box-shadow: 0 0 0 0.2rem rgba(114, 61, 190, 0.25);
+}
+
+
+/* ===- Dark Mode -=== */
+
+.dark-switch {
+    margin-top: 20px;
+    float: right;
+}
+
+[data-theme="dark"] {
+    background-color: #111 !important;
+    color: #eee;
+}
+
+[data-theme="dark"] .bg-light .main-form h1 {
+    background-color: #333 !important;
+    color: white;
+}
+
+[data-theme="dark"] .bg-white {
+    background-color: #111 !important;
+    color: white;
+}
+
+[data-theme="dark"] .bg-black {
+    background-color: white !important;
+}
+
+[data-theme="dark"] .login-container h1 {
+    color: white !important;
+}
+
+[data-theme="dark"] footer.footer-area .social a:hover>i {
+    color: white !important;
+}
+
+
+/* ==- BOOTSTRAP CAROUSEL -==  */
+
+.my-slider .carousel-indicators {
+    top: 10px;
+    justify-content: flex-start;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    background-color: wheat;
+}
+
+.carousel-indicators li:not(:last-child) {
+    margin-right: 20px;
+}
+
+
+/* ==- FOOTER -== */
+
+footer.footer-area {
+    /* background-image: url("../Dist/Background/Artboard_3.png"); */
+    padding: 5rem 0;
+}
+
+footer.footer-area .social h5 {
+    font: normal 500 23px/ 30px;
+}
+
+footer.footer-area .social a>i {
+    font-size: 22px;
+    padding: 2rem;
+}
+
+footer.footer-area .social a:hover>i {
+    color: black;
+}
